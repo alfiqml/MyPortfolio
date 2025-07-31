@@ -62,7 +62,7 @@ body.demos .container-fluid {
 }
 
 a {
-    color: #1f1f1f;
+    color: #2c3e50;
     text-decoration: none !important;
     outline: none !important;
     -webkit-transition: all .3s ease-in-out;
@@ -738,7 +738,7 @@ xclip
     box-shadow: none;
     background-color: transparent;
     border: 1px solid #e6e7e6 !important;
-    color: #1f1f1f;
+    color: #2c3e50;
     font-weight: 400;
     font-size: 13px;
     padding: 10px 30px;
@@ -791,7 +791,7 @@ xclip
 }
 
 .da-thumbs .pitem a div i {
-    background-color: #1f1f1f;
+    background-color: #2c3e50;
     position: absolute;
     color: #ffffff !important;
     bottom: 0;
@@ -912,7 +912,7 @@ xclip
 .pricing-table strong {
     font-weight: 600;
     margin-right: 6px;
-    color: #1f1f1f;
+    color: #2c3e50;
 }
 
 .pricing-table-header {
@@ -1020,7 +1020,7 @@ xclip
     line-height: 75px;
     font-size: 28px;
     background-color: #f2f3f5;
-    color: #1f1f1f;
+    color: #2c3e50;
     margin-top: 0;
 }
 
@@ -1180,7 +1180,7 @@ xclip
 .service-widget h3 a,
 .section.wb .service-widget h3,
 .section.lb .service-widget h3 {
-    color: #1f1f1f;
+    color: #2c3e50;
 }
 
 .service-widget p {
@@ -1339,7 +1339,7 @@ hr.invis1 {
     bottom: -20px;
     left: 50%;
     margin-left: -14px;
-    background-color: #1f1f1f;
+    background-color: #2c3e50;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -1355,7 +1355,7 @@ hr.invis1 {
     top: -20px;
     left: 50%;
     margin-left: -14px;
-    background-color: #1f1f1f;
+    background-color: #2c3e50;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -2136,7 +2136,7 @@ select.mobile-device {
 .footer {
     padding: 90px 0 80px !important;
     color: #999;
-    background-color: #1f1f1f;
+    background-color: #2c3e50;
 }
 
 .footer .widget-title {
@@ -2208,7 +2208,7 @@ select.mobile-device {
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color: #1f1f1f;
+    background-color: #2c3e50;
     box-sizing: border-box;
     width: 100%;
     text-align: left;
@@ -2357,7 +2357,7 @@ select.mobile-device {
 }
 
 .icon_wrap {
-    background-color: #1f1f1f;
+    background-color: #2c3e50;
     width: 100px;
     height: 100px;
     display: block;
@@ -2385,7 +2385,7 @@ select.mobile-device {
     margin: 0;
     font-weight: 300;
     padding: 4px 0 0;
-    line-height: 1 !important:
+    line-height: 1 !important:f
 }
 
 #preloader {
@@ -2459,7 +2459,7 @@ select.mobile-device {
     padding: 13px 40px;
     font-size: 18px;
     border: 1px solid #ececec !important;
-    color: #1f1f1f;
+    color: #2c3e50;
     background-color: transparent;
 }
 
@@ -2468,3 +2468,110 @@ select.mobile-device {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
 }
+
+.timeline-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.timeline {
+    position: relative;
+    padding: 0 20px;
+    border-left: 3px solid #ccc;
+    max-width: 600px;
+    width: 100%;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 40px;
+}
+
+.timeline-year {
+    position: absolute;
+    left: -110px;
+    top: 0;
+    font-weight: bold;
+    color: #333;
+    background: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: -32px;
+    width: 15px;
+    height: 15px;
+    background: #448AFF;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 2px #ccc;
+}
+.timeline-entry {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  gap: 15px;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #2e7df6;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.timeline-entry-box {
+  position: relative;
+  margin-left: 20px;
+}
+
+.timeline-content {
+  background: #fff;
+  border-left: 3px solid #2e7df6;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  color: #333;
+  position: relative;
+
+  margin-left: 60px; /* ✅ Add this line to fix the overlap */
+}
+.company-logo-top {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #2e7df6;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+/* Optional wrapper if needed */
+.with-logo {
+  padding-left: 20px;
+}
+
+/* Style the logo inside the content box */
+.company-logo-inline {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #2e7df6;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+  display: block;
+}
+
+
